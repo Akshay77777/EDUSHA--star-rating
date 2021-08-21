@@ -1,1 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    text-align: center;
+    padding: 15px 0px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
 
+.orange{
+    color: orange;
+}
+
+.yellow{
+    color: yellow;
+}
+
+img{
+    max-width: 35%;
+    height: auto;
+}
+.star-rating{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right top, #1e77a5, #0096bc, #00b5cc, #32d4d5, #6af2d8);
+}
+
+.stars{
+    width: 400px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.star{
+    list-style: none;
+    font-size: 3rem;
+    padding-left: 20px;
+    color: white;
+}
+.star :first-child{
+    padding: 5px;
+}
+.output{
+    width: 400px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: hsl(168, 85%, 47%);
+    font-size: 1.2rem;
+    border-radius: 3px;
+}
+
+.next{
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: rgb(21, 113, 150);
+    font-size: 1.2rem;
+    outline: none;
+    border: none;
+    color: white;
+    
+}
+
+.next :hover{
+    color: #00b894;
+    background: white;
+    border: 2px solid #00b894;
+    cursor: pointer;
+}
